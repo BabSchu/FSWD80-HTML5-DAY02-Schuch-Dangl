@@ -3,6 +3,82 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Activities</title>
+    <title>Excercise 1</title>
+    <style>
+	th, td {
+			border: 1px solid grey;
+		}
+
+	table {
+			border-collapse: collapse;
+		}
+
+	img {
+			height: 240px;
+	}
+
+    	
+    </style>
   </head>
   <body>
+  <!-- Create a table containing your three favorite images, songs and videos on the internet (that are safe for work ;) ). Use best practices when using images, audio and video tags. -->
+	<table>
+		<tr>
+			<th>Images</th>
+			<th>Sounds</th>
+			<th>Videos</th>
+		</tr>
+		<tr>
+			<td><img src="img/bald-eagle-4370916_640.jpg" alt="eagle portrait" height="240"></td>
+			<td>
+				<p>Lulu: Boom Bang a Bang</p>
+				<audio controls>
+  					<source src="songs/Eurovision Song Contest 1969 - Winner- Lulu, Boom Bang a Bang (United Kingdom).mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+			</td>
+			<td>
+				<video width="320" height="240" controls>
+  					<source src="video/autumn.mp4" type="video/mp4">
+ 	 				<source src="video/autumn.ogv" type="video/ogg">
+					Your browser does not support the video tag.
+				</video>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="img/new-york-city-4433114_640.jpg" alt="New York City"></td>
+			<td>
+				<p>James Bond Theme Song</p>
+				<audio controls>
+  					<source src="songs/On Her Majesty-s Secret Service Theme Song - James Bond.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio>
+			</td>
+			<td>
+				<video width="320" height="240" controls>
+  					<source src="video/cartoons.mp4" type="video/mp4">
+ 	 				<source src="video/cartoons.ogv" type="video/ogg">
+					Your browser does not support the video tag.
+				</video>
+			</td>
+		</tr>
+		<tr>
+			<td><img src="img/refuge-4457275_640.jpg" alt="Mountain"></td>
+			<td><p>Beatles: Hey Jude</p>
+				<audio controls>
+  					<source src="songs/The Beatles - Hey Jude.mp3" type="audio/mpeg">
+					Your browser does not support the audio element.
+				</audio></td>
+			<td>
+				<iframe width="560" height="315" 
+				src="https://www.youtube.com/embed/AAsybyVjXss" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+				</iframe>
+			</td>
+		</tr>
+
+	</table>
+
+
+
+  </body>
+  </html>
